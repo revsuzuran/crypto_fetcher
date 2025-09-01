@@ -1,0 +1,13 @@
+{
+  "name": "crypto-fetcher",
+  "version": "1.0.0",
+  "description": "A Node.js application to fetch and store cryptocurrency prices.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "pg": "^8.7.1"
+  }
+}
