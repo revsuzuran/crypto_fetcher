@@ -20,7 +20,7 @@ git branch -M main
 
 # Set remote with token
 git remote remove origin 2>/dev/null
-git remote add origin https://$TOKEN@github.com/$USERNAME/$REPO.git
+git remote add origin https://$USERNAME:$TOKEN@github.com/$USERNAME/$REPO.git
 
 # Push
 git push -u origin main
